@@ -43,7 +43,7 @@ function Provider({ children }) {
     };
     const valueToShare = {
         books,
-        deleteBookById,
+        deleteBooksById,
         editBookById,
         createBook,
         fetchBooks
