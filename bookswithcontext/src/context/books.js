@@ -22,7 +22,7 @@ function Provider({ children }) {
         });
         setBooks(updatedBooks);
     };
-    const deleteBookById = async (id) => {
+    const deleteBooksById = async (id) => {
         await axios.delete(`http://localhost:3001/books/${id}`);
 
         const updatedBooks = books.filter((book) => {
