@@ -31,5 +31,3 @@ function BookShow({ book, onDelete, onEdit }) {
 
     </div>
 }
-
-export default BookShow;
